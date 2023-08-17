@@ -26,7 +26,7 @@ public class Condition04 {
                 System.out.println("나눗셈 :" + (x / y));
                 break;
             default:
-                System.out.println("연산자를 잘 못 입력했습니다.");
+                System.out.println("연산자를 잘못 입력했습니다.");
         }
     }
 }
