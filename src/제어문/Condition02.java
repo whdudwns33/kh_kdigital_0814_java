@@ -1,7 +1,7 @@
 package 제어문;
 
 import java.util.Scanner;
-
+// if elde 는 가독성이 떨어짐. so, 웬만해서는 삼항 연산자 사용 추천.
 public class Condition02 {
     public static void main(String[] args) {
         System.out.print("문자를 입력하세요 :");
@@ -16,6 +16,4 @@ public class Condition02 {
             System.out.println(ch + "는 알파벳이 아닙니다.");
         }
     }
-    //수정123123
-
 }
