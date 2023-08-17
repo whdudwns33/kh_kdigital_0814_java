@@ -19,7 +19,7 @@ public class BItOperator {
         System.out.println(num1 << 1);      // 0001 0100 왼쪽으로 한칸이동은 X2
         System.out.println(num1 >> 1);      // 0000 0101 오른쪽으로 한칸이동은 /2
 
-        // 수정
+        // 수정111
 
     }
 }
