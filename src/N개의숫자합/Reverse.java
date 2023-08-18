@@ -12,9 +12,14 @@ public class Reverse {
         String input = sc.next();
         int pos = input.length() -1;  // 문자열의 반전된 시작위치를 찾음
 
-        while (pos > -1) {
-            System.out.print(input.charAt(pos));
-            pos--;
+//        while (pos > -1) {
+//            System.out.print(input.charAt(pos));
+//            pos--;
+//        }
+
+        for (int i = pos; i > -1; i--) {
+            System.out.print(input.charAt(i));
+
         }
     }
 }
