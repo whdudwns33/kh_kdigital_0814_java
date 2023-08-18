@@ -9,7 +9,7 @@ public class Condition04 {
         char op;   //연산자 자리
         Scanner sc = new Scanner(System.in);
         System.out.print("공식을 입력하시오 :");
-        x = sc.nextInt();
+        x = sc.nextInt();            // 중요 포인트는 x op y 순서를 지켜야함.
         op = sc.next().charAt(0);    // 문자 하나를 넣기 위함
         y = sc.nextInt();
         switch (op) { //  op는 문자열 자료
