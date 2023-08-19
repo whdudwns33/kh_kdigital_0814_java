@@ -12,11 +12,11 @@ public class ClockEx {
         int tM = m - 45;
     //
             if (h == 0) {
-                System.out.println("전 날 ");
+                System.out.print("전 날 ");
                 h = 23;
             } else if(h >24) {
                 h = h -24;
-                System.out.println("다음날 ");
+                System.out.print("다음날 ");
             } else;
     //
         if(tM < 0) {
