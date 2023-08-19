@@ -11,11 +11,6 @@ public class ClockEx {
         int m = sc.nextInt();
         int tM = m - 45;
     //
-            if(tM < 0) {
-                h -= 1;
-                tM = m + 15;
-            }
-    //
             if (h == 0) {
                 System.out.println("전 날 ");
                 h = 23;
@@ -23,8 +18,13 @@ public class ClockEx {
                 h = h -24;
                 System.out.println("다음날 ");
             } else;
+    //
+        if(tM < 0) {
+            h -= 1;
+            tM = m + 15;
+        } else;
 
-        System.out.println(h + ":" + tM);
+        System.out.println(h + ":" + tM + "알람입니다.");
 
 
 
