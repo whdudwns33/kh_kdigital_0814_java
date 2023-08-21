@@ -30,7 +30,7 @@ public class Lotto {
 
                 for (int e : lot) {
                     System.out.print(e + " ");
-                }
+                }// lot 자체는 배열의 주소값만 갖고 e를 순회하면서 요소값을 도출함
                 break;
             }
             else;
