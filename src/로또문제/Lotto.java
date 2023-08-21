@@ -27,6 +27,7 @@ public class Lotto {
                 lot[3] = rand4;
                 lot[4] = rand5;
                 lot[5] = rand6;
+
                 for (int e : lot) {
                     System.out.print(e + " ");
                 }
