@@ -1,7 +1,8 @@
 package 클래스기본;
 // 이부분은 오늘 한번 강의 다시 들어보기
 // 막 이해를 못한 것은 아니지만, 살짝 필기하다가 지나간 부분이 있는 듯.
-
+// 스태틱 할당 얘기 부분이 조금 부족함.
+// new는 작동하면서 할당되니까 스태틱 메모리에 저장인듯.
 
 public class Classbasic {// 얘도 클래스
     public static void main(String[] args) {// public 공용 접근제어자
@@ -9,8 +10,8 @@ public class Classbasic {// 얘도 클래스
         Student s1 = new Student();         // 메모리에 동적 할당(프로그램 런타임에 할당)을 한다.
                                             // 힙 영역에 저장,
                                             // 인스턴스화
-        s1.setname("마법사");
-        s1.setAddr("헤네시스");
+        System.out.println(s1.setname("마법사"));
+        System.out.println(s1.setAddr("엘레니아"));
         s1.showInfo();
 
         Student s2 = new Student();

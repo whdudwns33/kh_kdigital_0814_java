@@ -14,16 +14,22 @@ public class Student {
     private int grade;   // 학년
     private String addr; // 주소
 
+    // 이 아래는 메소드
     public void showInfo() {
         System.out.println(name + ", " + addr);
     }
     // Setter 메소드
     // 앞선 필드(변수)는 프라이빗으로 변경 불가이지만 set을 설정함으로 써 다른 클래스에서도 
     // 값을 지정할 수 있음
-    public void setname(String name) {
+
+    // 리턴 타입이 있으면 타입에 맞춰서 반환타입을 바꾸어야 하고 아니면 void로 지정
+    public boolean setname(String name) {
+        // 구현 부
         this.name = name;
+        return true;
     }
-    public void setAddr(String addr) {
+    public String setAddr(String addr) {
         this.addr = addr;
+        return "축하합니다.";
     }
 }
