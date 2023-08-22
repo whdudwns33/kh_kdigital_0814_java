@@ -28,13 +28,13 @@ public class Plus {
             calcNum = newNum;
         }
         System.out.println(cnt);
-
-
-//        for (int i = 0; ) {
+//
+//
 //            int num = sc.nextInt();
 //            int ten = num / 10;
 //            int one = num % 10;
-        //여기에 while문을 넣기
+//            //여기에 while문을 넣기
+//
 //            int sum = ten + one;
 //        }
     }
