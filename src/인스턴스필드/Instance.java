@@ -8,6 +8,7 @@ public class Instance {
         FieldTset fieldTset2 = new FieldTset();
         fieldTset2.insctanceVal = 300;
 
+        System.out.println(FieldTset.classVal);
         FieldTset.classVal = 1000;      // 클래스 자체로 접근
     }
 }
