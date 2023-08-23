@@ -4,6 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
+import static java.lang.Thread.sleep;
+
 public class IpadPro {
     // 인스턴스 필드로 만듦. 
     // 스크린과 컬러를 정수로 설정하면 1번은 뭐뭐 2번은 뭐뭐가 도출 될 수 있게
@@ -22,7 +24,7 @@ public class IpadPro {
     // 메서드 영역
     // 이름 각인을 위한 메서드
     IpadPro(String name) {
-        this.name = name;
+        this.name = name;       // this의 의미는 참조변수
         Date now = new Date(); //자바 유틸에서 임포트해서 사용
         SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd"); // 시간 정보를 표시해주는 클래스를 객체로 만듦.
         productDate = sdf.format(now);  // 생산한 년/월/일을 가져 옴
@@ -76,7 +78,7 @@ public class IpadPro {
         while (true) {
             System.out.print("네트워크 선택 : [1] WiFi [2] WiFi + cellular :");
             network = sc.nextInt();
-            if (network > 0 && network < 5) return;
+            if (network > 0 && network < 2) return;
             System.out.println("네트워크를 다시 선택하세요.");
         }
     }
@@ -94,5 +96,31 @@ public class IpadPro {
         String[] memStr = {"", "128", "256", "512", "1024"};
         String netStr = (network == 1) ? "W" : "C";
         serialNum = "ipad" + screenStr + memStr[memory] + netStr + productDate; // 일련 번호 생성.
+    }
+    void progressPad () throws InterruptedException {       // 30초 동안 아이패드가 만들어지는 과정을 임의로 만든 것.
+        int cnt = 0;
+        while (true) {
+            sleep(300); // 0.3초 동안 멈춤
+            cnt++;
+            System.out.print(" << ipad Pro 제작중 : [" + cnt + "%] >>");
+            System.out.print("\r");
+            if (cnt >= 100) break;
+        }
+    }
+    void produtPad() {  // 최종 생성된 패드의 정보를 읽어 주는 메서드
+        // 배열에 { a:0번쨰, b:1번째 ,c:2번째 }
+        final String[] screenType = {"", "11인치", "12.9 인치"};    // final은 상수 취급을 하겠다.
+        final String[] colorType = {"", "그레이", "실버"};
+        final String[] memType = {"", "128G", "256G", "512G", "1T"};
+        final String[] netType = {"", "WIFI", "WIFI + CELLULAR"};
+        System.out.println("=".repeat(5)+ "iPad Pro 사양" + "=".repeat(5));
+        // 배열[선택된 숫자: 앞에서는 1 or 2로 yes no를 선택했기 때문에 배열에 1아니면2로 선택 가능]
+        System.out.println("화면크기 :" + screenType[screen]);
+        System.out.println("색상 :" + colorType[color]);
+        System.out.println("용량 :" + memType[memory]);
+        System.out.println("네트워크 :" + netType[network]);
+        System.out.println("이름 : " + name);
+        System.out.println("일련번호 :" + serialNum);
+        System.out.println("-".repeat(40));
     }
 }

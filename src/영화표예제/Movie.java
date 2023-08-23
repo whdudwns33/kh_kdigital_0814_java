@@ -6,10 +6,14 @@ import java.util.Scanner;
 // 1. 좌석의 개수 결정
 // 2.
 public class Movie {
-    int [] seat = new int[10];  //좌석의 개수를 배열로 결정. 이것은 인스턴스 필드. 객체가 생성될 때 같이 생성
+//    int [] seat = new int[10];  //좌석의 개수를 배열로 결정. 이것은 인스턴스 필드. 객체가 생성될 때 같이 생성
+    int [] seat;
     int ticketPrice;
-    Movie(int price) { // 무비라는 생성자에 티켓 가격을 추가는 생성자
+    Movie(int price , int seatNum) { // 무비라는 생성자에 티켓 가격을 추가는 생성자
         ticketPrice = price;
+        seat = new int [seatNum];   
+        //  int [] seat = new int[10];는 인스턴스 필드로 10개의 배열을 지정을 한 것이고
+        // int [] seat; 자체는 선언만 한후 메서드에서 객체를 생성할 떄 선언할 수 있도록 설정한 것
     }
 
     // 메서드 생성

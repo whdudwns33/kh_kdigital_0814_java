@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class MovieSample {
     public static void main(String[] args) {
-        Movie movie = new Movie(15000); // 생성자 생성. 생성자를 추가함, 좌석당 가격을 정할 수 있음
+        Movie movie = new Movie(15000, 13); // 생성자 생성. 생성자를 추가함, 좌석당 가격을 정할 수 있음
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println("[1] 예매하기");
