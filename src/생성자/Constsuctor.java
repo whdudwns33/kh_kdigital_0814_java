@@ -1,5 +1,5 @@
 package 생성자;
-
+// 생성자는 인스턴스 변수를 초기화해주는 역할을 한다.
 public class Constsuctor {
     public static void main(String[] args) {
         Car car = new Car();

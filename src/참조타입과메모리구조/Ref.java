@@ -19,7 +19,7 @@ public class Ref {
         // int형의 참조 타입 주소를  입력하기만 하면 됨.
         int intValue = boxedValue;
         System.out.println(intValue);
-        // nullpointException : 값이 지정되지 않았음.
+        // nullpointException : 값이 지정되지 않았음. -> 노션에 잘 정리되어있음
 
 
          */

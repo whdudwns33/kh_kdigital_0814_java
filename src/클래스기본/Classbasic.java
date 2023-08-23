@@ -2,7 +2,7 @@ package 클래스기본;
 // 이부분은 오늘 한번 강의 다시 들어보기
 // 막 이해를 못한 것은 아니지만, 살짝 필기하다가 지나간 부분이 있는 듯.
 // 스태틱 할당 얘기 부분이 조금 부족함.
-// new는 작동하면서 할당되니까 스태틱 메모리에 저장인듯.
+// new는 객체 생성자
 
 public class Classbasic {// 얘도 클래스
     public static void main(String[] args) {// public 공용 접근제어자
