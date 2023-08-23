@@ -4,7 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
+
 import static java.lang.Thread.sleep;
+import static 클래스연습아이패드.Common.ScreenType;
 
 public class IpadPro {
     // 인스턴스 필드로 만듦. 
@@ -78,7 +80,7 @@ public class IpadPro {
         while (true) {
             System.out.print("네트워크 선택 : [1] WiFi [2] WiFi + cellular :");
             network = sc.nextInt();
-            if (network > 0 && network < 2) return;
+            if (network > 0 && network < 3) return;
             System.out.println("네트워크를 다시 선택하세요.");
         }
     }
@@ -87,14 +89,14 @@ public class IpadPro {
         System.out.println("각인 서비스를 신청하시겠습니까? yes/ no :");
         String service = sc.next();
         if(service.equalsIgnoreCase("yes")) {
-            System.out.print("이름을 입력하세요.");
-            name = sc.nextLine();
+            System.out.print("이름을 입력하세요 :");
+            name = sc.next();
         }
     }
     void setSerialNum () {
         String screenStr = (screen == 1) ? "11" : "13";
         String[] memStr = {"", "128", "256", "512", "1024"};
-        String netStr = (network == 1) ? "W" : "C";
+        String netStr = (network == 1) ? "W" : "C"; // 1이면 true라서 w도출 아니면 false라서 c도출
         serialNum = "ipad" + screenStr + memStr[memory] + netStr + productDate; // 일련 번호 생성.
     }
     void progressPad () throws InterruptedException {       // 30초 동안 아이패드가 만들어지는 과정을 임의로 만든 것.
@@ -115,7 +117,7 @@ public class IpadPro {
         final String[] netType = {"", "WIFI", "WIFI + CELLULAR"};
         System.out.println("=".repeat(5)+ "iPad Pro 사양" + "=".repeat(5));
         // 배열[선택된 숫자: 앞에서는 1 or 2로 yes no를 선택했기 때문에 배열에 1아니면2로 선택 가능]
-        System.out.println("화면크기 :" + screenType[screen]);
+        System.out.println("화면크기 :" + ScreenType[screen]);
         System.out.println("색상 :" + colorType[color]);
         System.out.println("용량 :" + memType[memory]);
         System.out.println("네트워크 :" + netType[network]);

@@ -7,6 +7,7 @@ public class IpadSample {
             if (!ipadPro.continueOder()) break;
             ipadPro.setScreen();
             ipadPro.setColor();
+            ipadPro.setNetwork();
             ipadPro.setMemory();
             ipadPro.setName();
             ipadPro.setSerialNum();

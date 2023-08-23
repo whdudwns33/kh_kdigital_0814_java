@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // 영화표 클래스
 // 1. 좌석의 개수 결정
-// 2.
+
 public class Movie {
 //    int [] seat = new int[10];  //좌석의 개수를 배열로 결정. 이것은 인스턴스 필드. 객체가 생성될 때 같이 생성
     int [] seat;
