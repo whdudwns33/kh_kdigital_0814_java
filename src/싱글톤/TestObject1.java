@@ -1,5 +1,5 @@
 package 싱글톤;
-
+// 싱글톤이란 객체를 하나만 지장하는 것
 public class TestObject1 {
     SingleTon single = SingleTon.getSingleTon();
     void setInfo (String name, int id) {
