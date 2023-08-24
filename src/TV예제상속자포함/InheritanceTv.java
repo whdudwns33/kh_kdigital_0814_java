@@ -1,5 +1,5 @@
 package TV예제상속자포함;
-
+// main으로 객체 생성 및 메서드로 결과 도출
 public class InheritanceTv {
     public static void main(String[] args) {
         PrototypeTV prototypeTV = new PrototypeTV();  // 상속을 주는 클래스가 객체화(인스턴스화) 된다는 의미가 추상화가 아니라는 의미

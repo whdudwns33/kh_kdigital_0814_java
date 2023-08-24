@@ -2,7 +2,11 @@ package TV예제상속자포함;
 // 상속을 위한 부모 클래스, 
 // 시제품. 기본적인 기능을 함
 // this 는 객체가 만들어지면 나오는 참조변수와 같은 것.
+// 
 public class PrototypeTV {
+    // 인스턴스 변수. vs static 변수: class 변수 -> 메서드 메모리에 저장. 단 한번만 선언
+    // 인스턴스 변수는 객체 생성 시 특성으로 사용
+    // + 생성자는 객체를 생성할 때 초기화를 해줌. + 초기값 설정의 역할.
     boolean isPower;    // 전원
     int channel;        // 채널
     int volume;         // 볼륨
@@ -14,7 +18,7 @@ public class PrototypeTV {
         this.volume = 15;
     }
     // 생성자 오버로딩: 매개변수 추가 등등.
-    // 추가로 메서드와 생성자 오버로딩은 동일함.
+    // 추가로 메서드와 생성자 오버로딩은 동일함. 왜냐하면 생성자는 메서드의 하나이기 때문.
     public PrototypeTV(boolean isPower, int channel, int volume) {
         this.isPower = isPower;
         this.channel = channel;

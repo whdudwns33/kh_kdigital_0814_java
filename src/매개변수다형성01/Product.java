@@ -5,14 +5,14 @@ public class Product {
     int bonusPoint;
 }
 
-class Tv extends Product {
+class Tv extends Product {  // 부모클래스
     Tv () {
         this.price = 100;
         this.bonusPoint = 10;
     }
 }
 
-class Computer extends Product  {
+class Computer extends Product  {   //자식클래스
     Computer() {
         this.price =200;
         this.bonusPoint =20;

@@ -1,8 +1,12 @@
 package TV예제상속자포함;
 // 이전에 만들었던 Tv에서 상속관계를 적용하고 오버라이딩 이점을 확인
-
 // 프로토타입 티비로부터 상속을 받는 자식 클래스. 양산용 TV생성
+// 상속은 extends를 사용
+
 public class TV extends PrototypeTV {
+    // 자식 클래스에서 새로운 인스턴스 변수 선언
+    // 이름과 인터넷.
+    // 속성을 추가
     String name;
     boolean isInternet;
     TV() {
@@ -12,8 +16,8 @@ public class TV extends PrototypeTV {
         isPower =false;
         channel = 10;
         volume = 12;
-        isInternet = false;
-        this.name = name;
+        isInternet = false; //인터넷은 없음을 기본으로 선언
+        this.name = name;   //this는 참조변수, 인스턴스 변수와 매개변수를 비교하기 위함
     }
     // 메서드 추가
     void setPower(boolean isPower) {
@@ -38,6 +42,19 @@ public class TV extends PrototypeTV {
 
     // 메소드 오버로딩
     // 동일 이름의 메소드를 매개변수의 타입이나 개수로 구분하는 것.
+    // void는 반환타입이 없다는 것.
+        //아래는 void return 예시 다시 한번 해보기
+//    void setName(String name) {
+//        this.name = name;
+//        System.out.println(name);
+//    }
+//
+//    public int Num(int a, int b) {
+//        return a+b;
+//    }
+
+
+
     public void setChannel (int ch, boolean isInternet) {    // 인터넷 기능을 추가한 메서드 오버로딩
         if(isInternet) {
             System.out.println("인터넷 모드입니다.");
