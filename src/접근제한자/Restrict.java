@@ -12,7 +12,7 @@ public class Restrict {
 
         Child child = new Child("마법사");
         System.out.println(child.getName());
-        System.out.println(child.getMoney());
+//        System.out.println(child.getMoney());
         System.out.println(child.getAddr());
 
     }
@@ -23,9 +23,9 @@ class Child extends Parent {
     public Child(String jobs) {
         this.jobs = jobs;
     }
-    public String getMoney() {  // private라서 접근 제한 상태, 디폴트로 바꿈: 같은 패키지 내에 있어야 접근가능함
-            return money;
-    }
+//    public String getMoney() {  // private라서 접근 제한 상태, 디폴트로 바꿈: 같은 패키지 내에 있어야 접근가능함
+//            return money;
+//    }
     public String getName() {
         return name;
     }

@@ -18,6 +18,7 @@ public class NumberEX {
         for (int i = 0; i < arr.length; i++) {
             tmp = sc.nextInt();
             arr[tmp % 42] = 1;  // 여기가 제일 중요. 42로 나누면 나머지에 해당하는 인덱스에 1을 대입
+                                // 그리고 그 수를 cnt로 더해가는 것.
         }
         for (int val : arr) {
             cnt += val;
