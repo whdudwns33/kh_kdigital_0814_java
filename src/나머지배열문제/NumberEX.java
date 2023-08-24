@@ -1,11 +1,6 @@
-package 나머지문제;
+package 나머지배열문제;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
-
-import static java.util.Arrays.*;
 
 public class NumberEX {
     public static void main(String[] args) {
