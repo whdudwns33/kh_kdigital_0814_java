@@ -12,6 +12,7 @@ public class Car {
     // 메서드 오버로딩, 매개변수(여기서는 model)가 있는 것과 없는 것.
     Car() {}
     Car(String model) {
+
         this.model = model; // 자신의 객체를 참조함
     }
     Car(String model, String color) {
