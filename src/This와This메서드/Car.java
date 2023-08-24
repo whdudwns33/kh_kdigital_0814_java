@@ -9,6 +9,7 @@ public class Car {
 
     Car() {}
     Car(String model) {
+
         this(model, 2022, "검정", 200);   // this() 이미 만들어진 생성자를 호출함.
     }
     Car(String model, int year, String colors, int speed) { // 매개변수 설정-> 이것은 지역변수
