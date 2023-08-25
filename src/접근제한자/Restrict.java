@@ -1,14 +1,15 @@
 package 접근제한자;
 
 import 접근제한자02.Parent;
+import 접근제한자02.Resteictor;
 
 public class Restrict {
     public static void main(String[] args) {
         Resteictor resteictor = new Resteictor();
-        resteictor.seoul();         // public에서 접근
-        resteictor.busan();         // protected 메서드에 대한 접근, 같은 패키지 내이거나 상속관계이면 접근 가능
-        resteictor.suwon();         // default 메서드에 대한 접근. 같은 패키지 내에서만 접근 가능
-        resteictor.incheon();     // private에 대한 접근 제한. 왜냐 같은 클래스 내부가 아니기 때문에 접근 허용이 안됨
+//        resteictor.seoul();         // public에서 접근
+//        resteictor.busan();         // protected 메서드에 대한 접근, 같은 패키지 내이거나 상속관계이면 접근 가능
+//        resteictor.suwon();         // default 메서드에 대한 접근. 같은 패키지 내에서만 접근 가능
+//        resteictor.incheon();     // private에 대한 접근 제한. 왜냐 같은 클래스 내부가 아니기 때문에 접근 허용이 안됨
 
         Child child = new Child("마법사");
         System.out.println(child.getName());

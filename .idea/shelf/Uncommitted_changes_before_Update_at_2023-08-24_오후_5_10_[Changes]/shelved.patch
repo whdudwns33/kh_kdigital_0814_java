@@ -1,0 +1,57 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
++++ /dev/null	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: src/PC방예제/PCans.java
+===================================================================
+diff --git a/src/PC방예제/PCans.java b/src/PC방예제/PCans.java
+deleted file mode 100644
+--- a/src/PC방예제/PCans.java	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
++++ /dev/null	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
+@@ -1,4 +0,0 @@
+-package PC방예제;
+-
+-public class PCans {
+-}
+Index: src/클래스연습아이패드/Ipad.java
+===================================================================
+diff --git a/src/클래스연습아이패드/Ipad.java b/src/클래스연습아이패드/Ipad.java
+deleted file mode 100644
+--- a/src/클래스연습아이패드/Ipad.java	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
++++ /dev/null	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
+@@ -1,4 +0,0 @@
+-package 클래스연습아이패드;
+-
+-public class Ipad {
+-}
+Index: src/연습/PR.java
+===================================================================
+diff --git a/src/연습/PR.java b/src/연습/PR.java
+deleted file mode 100644
+--- a/src/연습/PR.java	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
++++ /dev/null	(revision 48b5678b76dc0becb5d107944d8b10f0293fd30a)
+@@ -1,18 +0,0 @@
+-package 연습;
+-
+-import java.util.Scanner;
+-
+-public class PR {
+-    public static void main(String[] args) {
+-// 윤년 구하기
+-        Scanner sc = new Scanner(System.in);             //객체 생성 (인스턴스)
+-        System.out.println("년도를 입력하시오 : ");         //입력 매서드
+-        int year = sc.nextInt();                         //맴버 변수 설정.
+-
+-        if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+-            System.out.println("윤년입니다.");
+-        } else {
+-            System.out.println("윤년아닙니다.");
+-        }
+-    }
+-}
