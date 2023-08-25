@@ -7,6 +7,5 @@ public class Parent {
         int num = 1000;
         public void display() {
             System.out.println("부모클래스의 메서드");
-
     }
 }

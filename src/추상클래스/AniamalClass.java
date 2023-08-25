@@ -13,7 +13,7 @@ public abstract class AniamalClass { //객체로 만들수가 없음.
 //    void cry(){}
     void sleep () {// 일반 메서드. 상속받아서 오버라이딩을 굳이 할 필요는 없음. 그리고 상속을 받아도 되고 안받아도 됨.
         System.out.println("zzz");
-    }
+    }   // 일반적인 메서드
 }
 
 class Cat extends AniamalClass { // 추상클래스를 상속받았기 때문에 오버라이딩이 필요함.
@@ -24,7 +24,7 @@ class Cat extends AniamalClass { // 추상클래스를 상속받았기 때문에
     @Override
     void sleep() {  // 추상클래스의 일반 메서드를 상속받아서 오버라이딩함. 안해도 됨.
         System.out.println("ZZZZ");
-    }
+    }    // 일반적인 메서드 오버라이딩(재정의)
 }
 
 class Dog extends AniamalClass {
