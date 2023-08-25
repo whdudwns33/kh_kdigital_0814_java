@@ -1,5 +1,6 @@
 package 저항예제;
-
+// 답쓴거는 강사님과 도일한데 답이 도출이 안됨.
+// 안보이는 오류가 있는 듯.
 import java.util.Scanner;
 
 public class NewMain {
@@ -32,8 +33,7 @@ public class NewMain {
 //                System.out.print(num3);
             }
         }
-        System.out.println((long)((num1*10) + num2)*(Math.pow(10,num3)));
-        }
+        System.out.println(((long)((num1 * 10) + num2)) * (Math.pow(10, num3)));
     }
-
+}
 
