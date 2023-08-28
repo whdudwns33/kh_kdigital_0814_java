@@ -28,7 +28,8 @@ class SportCar implements Car {
     private static int price = km*liter;
     private int moveCount;
     private int cost;
-    private double time;
+    private int time;
+    private double minute;
 
 
     @Override
@@ -102,13 +103,13 @@ class SportCar implements Car {
         //비용
         cost = km*moveCount/ fee * 2000;
         //총시간
-        time = ((double)km * (double)moveCount / (double)speed);
+        time = (km * moveCount / speed);
+        minute = ((((double)km * (double)moveCount ) / (double)speed) - 14) * 60;
         //도출
         System.out.println("총비용 :" + cost);
         System.out.println("이동횟수 :" + moveCount);
         System.out.println("주유횟수 :" + disCnt);
-        System.out.println("총시간 :" + time);
-
+        System.out.println("총시간 :" + time + " : " + minute);
     }
 }
 
@@ -127,6 +128,7 @@ class Bus implements Car {
     private int moveCount;
     private int cost;
     private double time;
+    private double minute;
 
     @Override
     public void setCar(String name,int speed, int fee, int tankSize, int seatNum) {
@@ -198,12 +200,13 @@ class Bus implements Car {
         //비용
         cost = km*moveCount/ fee * 2000;
         //총시간
-        time = ((double)km * (double)moveCount / (double)speed);
+        time = (km * moveCount / speed);
+        minute = ((((double)km * (double)moveCount ) / (double)speed) - 14) * 60;
         //도출
         System.out.println("총비용 :" + cost);
         System.out.println("이동횟수 :" + moveCount);
         System.out.println("주유횟수 :" + disCnt);
-        System.out.println("총시간 :" + time);
+        System.out.println("총시간 :" + time + " : " + minute);
     }
 }
 
@@ -222,6 +225,7 @@ class Suv implements Car {
     private int moveCount;
     private int cost;
     private double time;
+    private double minute;
 
     @Override
     public void setCar(String name,int speed, int fee, int tankSize, int seatNum) {
@@ -293,12 +297,13 @@ class Suv implements Car {
         //비용
         cost = km*moveCount/ fee * 2000;
         //총시간
-        time = ((double)km * (double)moveCount / (double)speed);
+        time = (km * moveCount / speed);
+        minute = ((((double)km * (double)moveCount ) / (double)speed) - 14) * 60;
         //도출
         System.out.println("총비용 :" + cost);
         System.out.println("이동횟수 :" + moveCount);
         System.out.println("주유횟수 :" + disCnt);
-        System.out.println("총시간 :" + time);
+        System.out.println("총시간 :" + time + " : " + minute);
     }
 }
 
