@@ -12,8 +12,5 @@ package 깃불러오기;
 // git commit
 // git remote ~~~
 // git push ~~~
-
-
-//
 public class Git {
 }
