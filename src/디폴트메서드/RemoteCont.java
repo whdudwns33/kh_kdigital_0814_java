@@ -12,7 +12,8 @@ public interface RemoteCont {
         if (mute) System.out.println("음소거");
         else System.out.println("해제");
     }
-    static void changeBattery() {
+    static void changeBattery() {   // 정적 메서드. 클래스로 객체를 생성하지 않아도 호출이 가능한 메서드
+                                    // 생성되어있는 클래스 이름으로 호출이 가능하다. 디폴트 클래스의 오디오 확인
         System.out.println("건전지를 교환 합니다.");
     }
 }

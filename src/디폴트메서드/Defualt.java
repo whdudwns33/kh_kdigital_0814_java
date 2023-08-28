@@ -13,7 +13,7 @@ public class Defualt {
             rc.turnON();
             rc.setVolume(20);
             rc.setMute(true);
-            RemoteCont.changeBattery();
+            RemoteCont.changeBattery(); // 정적메서드로 선언되어서 클래스 이름으로도 접근이 가능하다.
         }
         else {
             rc = new TV();
