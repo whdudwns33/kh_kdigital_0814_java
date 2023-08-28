@@ -1,7 +1,8 @@
 package 인터페이스;
 
 public interface NetWorkAdaptor {   // 연결 통로.
-    public abstract void connect(); // 자동으로 public abstract가 포함됨. 붙이나 안붙이나 상관없음. 완전 추상화
+    public abstract void connect(); // 자동으로 public abstract가 포함됨. 붙이나 안붙이나 상관없음.
+                                    // 완전 추상화
 }
 
 
