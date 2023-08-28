@@ -7,15 +7,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        boolean turnOn;
-        int price = 0;
-        int fee;
-        int km;
-        int move;
-        int seatNum = 0;
-        String [] arr = {"", "부산", "강릉", "대전", "광주"};
-
-
+//        String [] arr = {"", "부산", "강릉", "대전", "광주"};
         Car sportCar = new SportCar();
         Car bus = new Bus();
         Car Suv = new Suv();
@@ -35,52 +27,5 @@ public class Main {
         } else {
             System.out.println("다시 입력하세요.");
         }
-
-//
-//        System.out.println("[1] 부산 [2] 강릉 [3] 대전 [4] 광주");
-//        int choice = sc.nextInt();
-//        if (choice == 1) {
-//            System.out.println("부산");
-//            km = 400;
-//            System.out.print(km + "km");
-//        } else if (choice == 2){
-//            System.out.println("강릉");
-//            km = 200;
-//            System.out.print(km + "km");
-//        } else if (choice == 3){
-//            System.out.println("대전");
-//            km = 150;
-//            System.out.print(km + "km");
-//        } else if (choice == 4){
-//            System.out.println("광주");
-//            km = 300;
-//            System.out.print(km + "km");
-//        }
-//
-
-//        System.out.println("이동 횟수 :" + );
-//        System.out.println("총비용 :" + (km/));
-
-
-
-
-
-
-
-
-
-
-//        CarSample carSample = new CarSample();
-//        carSample.setChoice();
-//
-
-
-
-//        System.out.println("[1] 부산 [2] 강릉 [3] 대전 [4] 광주");
-
-
-
-
     }
-
 }

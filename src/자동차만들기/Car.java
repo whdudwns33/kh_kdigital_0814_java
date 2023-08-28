@@ -8,11 +8,8 @@ public interface Car {
 //    private static int tankSize;
 //    private static int seatNum;
 //    private static String name;
-
     public void setCar(String CarName, int speed, int fee, int tankSize, int seatNum);
-
 }
-
 
 class SportCar implements Car {
     private static int speed;
@@ -57,7 +54,6 @@ class SportCar implements Car {
 
         System.out.print("승객 수 : ");
         int passengers = sc.nextInt();
-
         if (passengers % seatNum != 0) move = (passengers / seatNum) + 1;
         else move =passengers / seatNum;
 
@@ -104,7 +100,7 @@ class SportCar implements Car {
         cost = km*moveCount/ fee * 2000;
         //총시간
         time = (km * moveCount / speed);
-        minute = ((((double)km * (double)moveCount ) / (double)speed) - 14) * 60;
+        minute = ((((double)km * (double)moveCount ) / (double)speed) - time) * 60;
         //도출
         System.out.println("총비용 :" + cost);
         System.out.println("이동횟수 :" + moveCount);
@@ -201,7 +197,7 @@ class Bus implements Car {
         cost = km*moveCount/ fee * 2000;
         //총시간
         time = (km * moveCount / speed);
-        minute = ((((double)km * (double)moveCount ) / (double)speed) - 14) * 60;
+        minute = ((((double)km * (double)moveCount ) / (double)speed) - time) * 60;
         //도출
         System.out.println("총비용 :" + cost);
         System.out.println("이동횟수 :" + moveCount);
@@ -298,7 +294,7 @@ class Suv implements Car {
         cost = km*moveCount/ fee * 2000;
         //총시간
         time = (km * moveCount / speed);
-        minute = ((((double)km * (double)moveCount ) / (double)speed) - 14) * 60;
+        minute = ((((double)km * (double)moveCount ) / (double)speed) - time) * 60;
         //도출
         System.out.println("총비용 :" + cost);
         System.out.println("이동횟수 :" + moveCount);
@@ -308,44 +304,3 @@ class Suv implements Car {
 }
 
 
-class CarSample {
-
-    private static int liter;
-    private static int km;
-    private static int price = km*liter;
-    private int moveCount;
-
-
-    //    private static int choice;
-    Car car;
-
-
-
-    String [] arr = {"", "부산", "강릉", "대전", "광주"};
-    String [] str = {"", "스포츠카", "승용차", "버스"};
-
-
-    public void setChoice() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("[1] 부산 [2] 강릉 [3] 대전 [4] 광주");
-        int choice = sc.nextInt();
-
-        if (choice == 1) {
-            System.out.println("부산");
-            km = 400;
-            price = km*liter;
-        } else if (choice == 2){
-            System.out.println("강릉");
-            km = 200;
-            price = km*liter;
-        } else if (choice == 3){
-            System.out.println("대전");
-            km = 150;
-            price = km*liter;
-        } else if (choice == 4){
-            System.out.println("광주");
-            km = 300;
-            price = km*liter;
-        } else;
-    }
-}
