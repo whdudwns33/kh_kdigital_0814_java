@@ -4,29 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c38e1b-675f-4bbb-ac8b-f4d5b324c8f1" name="Changes" comment="에어컨 예제 중간 저장">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-21__5_52__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-21_오후_5_52_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-23__11_44__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-23_오전_11_44_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-24__5_10__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-24_오후_5_10_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kh_kdigital_0814_java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/저항예제/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/저항예제/NewMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상클래스/AniamalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상클래스/AnimalName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상클래스02/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상클래스02/SmartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상클래스02/SmartPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PC방예제/PCans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/에어컨만들기/AirCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/에어컨만들기/AirCon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/에어컨만들기/AirConSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/에어컨만들기/AirConSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/접근제한자/Restrict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/접근제한자/Restrict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/클래스연습아이패드/Ipad.java" beforeDir="false" />
+    <list default="true" id="e2c38e1b-675f-4bbb-ac8b-f4d5b324c8f1" name="Changes" comment="전자레인지예제">
+      <change afterPath="$PROJECT_DIR$/src/쓰레드예제01/Thread01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-21__5_52__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-21_오후_5_52_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-23__11_44__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-23_오전_11_44_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-24__5_10__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-24_오후_5_10_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/스레드/Thread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/큐/Queue.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,6 +65,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="큐명령어이력조회" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CommandLineEx" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="커맨드라인.CommandLineEx" />
@@ -121,30 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692249373631</updated>
-    </task>
-    <task id="LOCAL-00001" summary="연산자 실험 수정입니다">
-      <option name="closed" value="true" />
-      <created>1692249418888</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1692249418888</updated>
-    </task>
-    <task id="LOCAL-00002" summary="조건문 반영입니다.">
-      <option name="closed" value="true" />
-      <created>1692251121048</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1692251121048</updated>
-    </task>
-    <task id="LOCAL-00003" summary="조건문 반영입니다.">
-      <option name="closed" value="true" />
-      <created>1692251518069</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1692251518069</updated>
     </task>
     <task id="LOCAL-00004" summary="조건문 임시 수정 반영입니다.">
       <option name="closed" value="true" />
@@ -442,7 +413,103 @@
       <option name="project" value="LOCAL" />
       <updated>1692927596389</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="저항추가">
+      <option name="closed" value="true" />
+      <created>1692942601902</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1692942601902</updated>
+    </task>
+    <task id="LOCAL-00042" summary="인터페이스">
+      <option name="closed" value="true" />
+      <created>1692944714035</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692944714035</updated>
+    </task>
+    <task id="LOCAL-00043" summary="인터페이스">
+      <option name="closed" value="true" />
+      <created>1692946839946</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692946839946</updated>
+    </task>
+    <task id="LOCAL-00044" summary="0825진도 끝">
+      <option name="closed" value="true" />
+      <created>1692949227388</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1692949227388</updated>
+    </task>
+    <task id="LOCAL-00045" summary="0825진도 끝">
+      <option name="closed" value="true" />
+      <created>1692953826972</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692953826972</updated>
+    </task>
+    <task id="LOCAL-00046" summary="실습반영">
+      <option name="closed" value="true" />
+      <created>1693199891952</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1693199891952</updated>
+    </task>
+    <task id="LOCAL-00047" summary="실습반영22">
+      <option name="closed" value="true" />
+      <created>1693199913169</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1693199913169</updated>
+    </task>
+    <task id="LOCAL-00048" summary="실습반영22">
+      <option name="closed" value="true" />
+      <created>1693201065489</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1693201065489</updated>
+    </task>
+    <task id="LOCAL-00049" summary="다운캐스팅까지 반영">
+      <option name="closed" value="true" />
+      <created>1693209722962</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1693209722962</updated>
+    </task>
+    <task id="LOCAL-00050" summary=".">
+      <option name="closed" value="true" />
+      <created>1693526718962</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1693526718962</updated>
+    </task>
+    <task id="LOCAL-00051" summary="스택">
+      <option name="closed" value="true" />
+      <created>1693531258869</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1693531258869</updated>
+    </task>
+    <task id="LOCAL-00052" summary="전자레인지예제">
+      <option name="closed" value="true" />
+      <created>1693539137377</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1693539137377</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,15 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="08.18일자 최종 변경입니다." />
-    <MESSAGE value="0821 최종 변경" />
-    <MESSAGE value="10:50분경 저장" />
-    <MESSAGE value="11:50분경 저장" />
-    <MESSAGE value="12:50분경 저장" />
-    <MESSAGE value="15:30분경 저장" />
-    <MESSAGE value="소수더하기 문제 반영" />
-    <MESSAGE value="디버그를 사용한 더하기 싸이클" />
-    <MESSAGE value="2와 3의 배수를 제외한 소수 더하기" />
     <MESSAGE value="08.23 테스트용" />
     <MESSAGE value="0823 12:00" />
     <MESSAGE value="아이패드 추가" />
@@ -482,7 +540,16 @@
     <MESSAGE value="0824 수업 마무리" />
     <MESSAGE value="0825 깃 테스트" />
     <MESSAGE value="에어컨 예제 중간 저장" />
-    <option name="LAST_COMMIT_MESSAGE" value="에어컨 예제 중간 저장" />
+    <MESSAGE value="저항추가" />
+    <MESSAGE value="인터페이스" />
+    <MESSAGE value="0825진도 끝" />
+    <MESSAGE value="실습반영" />
+    <MESSAGE value="실습반영22" />
+    <MESSAGE value="다운캐스팅까지 반영" />
+    <MESSAGE value="." />
+    <MESSAGE value="스택" />
+    <MESSAGE value="전자레인지예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="전자레인지예제" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kh_kdigital_0814_java$CommandLineEx.ic" NAME="CommandLineEx Coverage Results" MODIFIED="1692587841358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
