@@ -14,7 +14,7 @@ public class AsList {
         for (int i = 0; i < arr.length; i++) {  // 배열에 랜덤 숫자 넣기
             arr[i] = (int) (Math.random() * num) + 1; // 정수형 배열이니까 랜덤 앞에 정수 선언.
                                                   // random은 0.0이상 1.0미만의 숫자 무작위 추출
-                                                  // 따라서 정수를 출력하기 위해선 입력한 num을 곱하고 +1을 해야 최소 1부터 출력가능
+                                                  // 따라서 정수출력을 위해서 입력한 num을 곱하고 +1을 해야 최소 1부터 출력가능
         }
         Arrays.sort(arr);                   // 오름차순 정렬. 작은 수 순서로
         for (int e : arr) {
