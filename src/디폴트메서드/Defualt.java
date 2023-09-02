@@ -20,5 +20,25 @@ public class Defualt {
             rc.turnON();
             rc.setVolume(30);
         }
+
+        // 익명 객체
+        RemoteCont playStation = new RemoteCont() {
+            @Override
+            public void turnON() {
+                System.out.println("플스를 킵니다.");
+            }
+
+            @Override
+            public void turnOff() {
+                System.out.println("플스를 끕니다.");
+            }
+
+            @Override
+            public void setVolume(int vol) {
+
+            }
+        };
+        playStation.turnON();
+        playStation.turnOff();
     }
 }
