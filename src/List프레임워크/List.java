@@ -2,6 +2,8 @@ package List프레임워크;
 import java.util.ArrayList;
 import java.util.Comparator;
 import static java.lang.System.*;
+// List 와 ArrayList의 차이점
+// List는 배열에 정수형, 문자열 등 데이터 값(참조변수)만 입력이 되지만, ArrayList는 클래스 자체를 저장할 수 있음
 
 // add 배열에 데이터 삽입
 // get 특정 인덱스의 배열 데이터 출력
