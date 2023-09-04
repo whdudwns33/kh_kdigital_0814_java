@@ -10,7 +10,7 @@ public class Main {
         try {
             System.out.println(ce.printEven(num1));
             System.out.println(ce.printEven(num2));
-        } catch (EvenException e) {
+        } catch (EvenException e) { // 사용자 지정 예외 처리
             e.printStackTrace();
         }
 
@@ -25,7 +25,7 @@ class EvenException extends Exception {
         this.number = number;
     }
 
-    @Override
+    @Override   // Exception에 존재하는 메서드를 오버라이딩
     public String getMessage() {
         if (number == null) return "숫자가 없습니다.";
         else return Integer.toString(number) + "는 짝수가 아닙니다.";
