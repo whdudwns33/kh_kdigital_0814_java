@@ -39,11 +39,11 @@ public class Main03 {
                 .mapToInt(e->e.getScore())             //mapToInt는 정수형으로 반환. 메서드 참조, 중간연산.
                 .average()                             //중간연산. 평균구하는 메서드. 내부에 있음
                 .getAsDouble();                        //결과 출력. 최종 연산. forEach로 계산 불가
-        System.out.println(average);
+        System.out.println(average + "\n");
 
-//        IntStream stream = IntStream.range(1,100);
-//        int sum;
-//        stream.forEach(e -> sum += e);
+
+        IntStream stream = IntStream.rangeClosed(1,100);
+        System.out.println(stream.sum());
     }
 }
 
