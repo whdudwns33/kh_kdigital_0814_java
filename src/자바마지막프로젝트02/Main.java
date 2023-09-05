@@ -1,9 +1,6 @@
 package 자바마지막프로젝트02;
 
-
-
 import 자바마지막프로젝트.MenuInfo;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -15,7 +12,8 @@ public class Main {
         Map<String, MenuInfo> map = readList(); // 맵 객체 생성
 
         for(String e : map.keySet()) {
-            System.out.println("메뉴 : " + map.get(e).getName()); // private라서 게터를 불러와야 함.
+            System.out.println("메뉴 : " + map.get(e).getName()); // .name이런 식으로 못 불러오는 것은
+                                                                 // private 필드라서 게터를 불러와야 함.
             System.out.println("가격 : " + map.get(e).getPrice());
             System.out.println("분류 : " + map.get(e).getCategory());
             System.out.println("설명 : " + map.get(e).getDescription());

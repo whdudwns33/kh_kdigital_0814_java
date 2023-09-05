@@ -25,6 +25,7 @@ public class CoffeeMenuList {
         oos.writeObject(map);
         oos.flush();
         oos.close();
+        fos.close();
         } catch(IOException e ) {
             System.out.println("에러");
         }
@@ -117,7 +118,7 @@ public class CoffeeMenuList {
                 case 6:
                     System.out.print("메뉴를 종료 합니다.");
                     writeList();
-                    System.exit(1000); // 강제 종료
+//                    System.exit(1000); // 강제 종료
                     //return; // code 0
                     break;
                 default: System.out.println("선택하신 메뉴가 없습니다.");

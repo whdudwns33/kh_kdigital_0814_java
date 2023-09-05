@@ -14,6 +14,9 @@ public class MenuInfo implements Serializable {
         this.category = category;
         this.description = description;
     }
+    // 다른 패키지에 사용하기 위해서 게터와 세터 설정.
+
+
 
     public String getName() {
         return name;
